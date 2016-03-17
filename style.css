@@ -1,0 +1,46 @@
+body {
+  background-color: lemonchiffon;
+}
+
+#container {
+  /*display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;*/
+  min-height: 510px;
+  font-family: 'Merriweather';
+  text-align: center;
+}
+#name {
+  font-size: 22px;
+}
+img {
+    max-width: 500px;
+    max-height: 300px;
+    height: auto;
+    border: 10px double black;
+    margin: 10px;
+}
+.lookslike-text {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  min-height: 75px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#lookslike {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#forbutton {
+  text-align: center;
+  margin-bottom: 15px;
+}
