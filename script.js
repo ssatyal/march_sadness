@@ -127,16 +127,107 @@ var whll = [
   'http://i.imgur.com/ew7tvcyl.jpg'],
   ['Jeff Van Gundy',
   'Looks like a nervous scientist in a Sci-Fi movie who, after a series of awkward exchanges with the hero, says "I don\'t get out much."',
-  'http://i.imgur.com/9WvujN2l.jpg']
-  // ['',
-  // '',
-  // '']
-  // ['',
-  // '',
-  // '']
-  // ['',
-  // '',
-  // '']
+  'http://i.imgur.com/9WvujN2l.jpg'],
+  ['Jim Tomsula',
+  'Sounds like a monster a creole grandma comes up with to keep kids quiet. "Keep quiet or that Jim Tomsula is comin out tha swamp!""',
+  'http://i.imgur.com/HVCOD1g.jpg'],
+  ['Jim Tomsula',
+  'Looks like the first guy a newly separated mom goes on a date with.',
+  'http://i.imgur.com/pamvYh8.jpg'],
+  ['Bo Ryan',
+  'Looks like the creepy funeral home director who offers recent widows a shoulder to cry on in an attempt to seduce them.',
+  'http://i.imgur.com/hyUqJL4.jpg'],
+
+  ['Jeremy Shockey',
+  'Looks like what would happen if Ed Hardy started making people.',
+  'http://i.imgur.com/a4lFADo.jpg'],
+
+  ['Jim Tomsula',
+  'Looks like the guy riding a wave of water on a float after his above ground pool breaks on America\'s Funniest Home Videos.',
+  'http://i.imgur.com/rNzHI06.jpg'],
+
+  ['Jim Tomsula',
+  'Looks like a construction worker in an action film shouting "you can\'t go that way!" as a car blows through a barricade.',
+  'http://i.imgur.com/ieSDnks.jpg'],
+
+  ['Bret Bielema',
+  'Looks like the guy who says "diet starts tomorrow" as he takes a giant bite of a pulled pork sandwich.',
+  'http://i.imgur.com/IKU2xFU.jpg'],
+
+  ['Jim Tomsula',
+  'Looks like an 80s Olympics bronze medalist shot putter.',
+  'http://i.imgur.com/DgSYnf4.jpg'],
+
+  ['Steve Kerr',
+  'Looks like the guy who brushes his teeth in the work bathroom.',
+  'http://i.imgur.com/am0hh5m.jpg'],
+
+  ['Joe Buck',
+  'Looks like the guy who stops you mid conversation, looks at his phone, and says "I gotta take this, it\'s the Tampa office."',
+  'http://i.imgur.com/tcNqgtI.png'],
+
+  ['Pablo Torre',
+  'Looks like part of the the oddly diverse group of friends pictured in a community college brochure.',
+  'http://i.imgur.com/SN534hq.jpg'],
+
+  ['Gary Kubiak',
+  'Looks like the guy behind the counter at Pep Boys who\'s trying to convince you that you need four new tires.',
+  'http://i.imgur.com/catDsjH.jpg'],
+
+  ['Mike Tomlin',
+  'Looks like a courtroom TV judge that has a catch phrase, and uses it outside of work to try to get recognized.',
+  'http://i.imgur.com/T9Xqz14.jpg'],
+
+  ['Jim Tomsula',
+  'Looks like the guy that brings doughnuts to work to share, then eats 90 percent of them.',
+  'http://i.imgur.com/wX36xYs.jpg'],
+
+  ['Jimmy Graham',
+  'Looks like a default created player in a video game.',
+  'http://i.imgur.com/1RY2rkA.jpg'],
+
+  ['Stan Kroenke',
+  'Looks like a character from the Beastie Boys "Sabotage" video.',
+  'http://i.imgur.com/igqna97.jpg'],
+
+  ['Jim Tomsula',
+  'Looks like the general manager for a regional bologna distributor.',
+  'http://i.imgur.com/w1pZmIW.jpg'],
+
+  ['Jim Tomsula',
+  'Looks like the guy cooking up hot dogs at the street stand at 4 am when you get out of the club.',
+  'http://i.imgur.com/VQWdBd6.jpg'],
+  ['Wade Phillips',
+  'Looks like a flabbergasted Boy Scout troop leader in the woods, who can\'t find his way back to camp.',
+  'http://i.imgur.com/XdguQYh.jpg'],
+
+  ['Joey Crawford',
+  'Looks like an animated turtle walking around without his shell.',
+  'http://i.imgur.com/r96cyLt.jpg'],
+
+  ['Teddy Bridgewater',
+  'Sounds like a children\'s book about a stuffed animal saving a town from a flood.',
+  'http://i.imgur.com/EJmVyLj.jpg'],
+
+  ['Buck Showalter',
+  'Looks like the old Texas lawman who squashes disputes at the local saloon by simply swinging open the double doors and staring down rowdy patrons. Richie Incognito and Ndamukong Suh are those rowdy patrons.',
+  'http://i.imgur.com/ZglkEVh.jpg'],
+
+  ['Urban Meyer',
+  'Looks like the guy that has to have a bigger lawnmower than his next door neighbor.',
+  'http://i.imgur.com/SvthT2U.jpg'],
+
+  ['Chuck Pagano',
+  'Looks like Tony Soprano\'s friend from childhood that Tony has to reluctantly beat up for repeatedly failing to pay back a gambling debt. Bruce Arians and Mike Dunleavy Sr. are the two guys on lookout while Tony Soprano is beating up Chuck Pagano.',
+  'http://i.imgur.com/WxrLWL2.jpg'],
+
+  ['Tim Legler',
+  'Looks like the guy from the razor commercials who strokes his face with delight.',
+  'http://i.imgur.com/JYF1Vqb.jpg'],
+
+  ['Mark Cuban',
+  'Looks like a Roman senator who conspired against Caesar.',
+  '']
   // ['',
   // '',
   // '']
