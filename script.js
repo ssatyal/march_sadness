@@ -227,20 +227,42 @@ var whll = [
 
   ['Mark Cuban',
   'Looks like a Roman senator who conspired against Caesar.',
-  '']
-  // ['',
-  // '',
-  // '']
-  // ['',
-  // '',
-  // '']
-  // ['',
-  // '',
-  // '']
-  // ['',
-  // '',
-  // '']
+  'http://i.imgur.com/KwH2ZLy.jpg'],
 
+  ['Art Briles',
+  'Looks like an old man sitting on a rocking chair outside a bar who pulls out a gun and sets it on his lap while telling people "not from around these parts" asking for directions, "yeah, it\'s back the way you came."',
+  'http://i.imgur.com/TIZYIOj.jpg'],
+
+  ['Brad Nessler',
+  'Looks like he walked out of a 1920s gangster-run nightclub.',
+  'http://i.imgur.com/QYA5qZv.jpg'],
+
+  ['Les Miles',
+  'Looks like a judge for your local chili cook-off who puts his finger in your bowl and says, "it needs a little more heat."',
+  'http://i.imgur.com/HkeiLhC.jpg'],
+
+  ['Rick Fox',
+  'Looks like the beach lifeguard who is too busy flirting with girls to notice a child drifting out to sea.',
+  'http://i.imgur.com/P0HwGBW.jpg'],
+
+  ['Scott Van Pelt',
+  'Looks like a computer-generated image of what we used to think people would look like in the future.',
+  'http://i.imgur.com/u03EDya.jpg'],
+
+  ['Bob Ley',
+  'Looks like the guy who, after being told a secret, pretends to zip his lips, lock them up, and throw away the key over his shoulder.',
+  'http://i.imgur.com/CoDKMgH.jpg'],
+
+  ['Stan Van Gundy',
+  'Looks like the guy who gets into a hot tub and is unaware that his shorts are quickly filling up with air.',
+  'http://i.imgur.com/cytkkdF.jpg'],
+
+  ['Jameis Winston',
+  'Looks like a cartoon dinosaur.',
+  'http://i.imgur.com/ZvxPFae.jpg']
+  // ['',
+  // '',
+  // '']
 
 ];
 
