@@ -129,7 +129,7 @@ var whll = [
   'Looks like a nervous scientist in a Sci-Fi movie who, after a series of awkward exchanges with the hero, says "I don\'t get out much."',
   'http://i.imgur.com/9WvujN2l.jpg'],
   ['Jim Tomsula',
-  'Sounds like a monster a creole grandma comes up with to keep kids quiet. "Keep quiet or that Jim Tomsula is comin out tha swamp!""',
+  'Sounds like a monster a creole grandma comes up with to keep kids quiet. "Keep quiet or that Jim Tomsula is comin out tha swamp!"',
   'http://i.imgur.com/HVCOD1g.jpg'],
   ['Jim Tomsula',
   'Looks like the first guy a newly separated mom goes on a date with.',
