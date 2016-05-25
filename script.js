@@ -277,7 +277,9 @@ randomize = function() {
   var guy = whll[randomNum];
   $('img').replaceWith('<img src='+whll[randomNum][2]+'>');
   $('#name').replaceWith('<div id="name">'+guy[0]+'</div>');
-  $('#lookslike').replaceWith('<div id="lookslike">'+guy[1]+'</div>');};
+  $('#lookslike').replaceWith('<div id="lookslike">'+guy[1]+'</div>');
+  $('#place').html((guy+1) + " / " + (whll.length));
+};
 randomize();
 
 //sets the person equal to the random number generated
@@ -286,6 +288,7 @@ loadpage = function(){
   $('img').replaceWith('<img src='+whll[guy][2]+'>');
   $('#name').replaceWith('<div id="name">'+whll[guy][0]+'</div>');
   $('#lookslike').replaceWith('<div id="lookslike">'+whll[guy][1]+'</div>');
+  $('#place').html((guy+1) + " / " + (whll.length));
 };
 
 $("#next").on("click", function(){
@@ -307,3 +310,4 @@ $("#back").on("click", function(){
     loadpage();
   };
 });
+$('#place').html(guy + " / " + (whll.length))
