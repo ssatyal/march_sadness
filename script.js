@@ -269,11 +269,41 @@ var whll = [
 var image = $('img');
 var name = $('#name');
 var text = $('#lookslike');
+var randomNum = 0;
+
+//the random function loads the page with a randomly selected entry from the array and updates the randomNum variable
 randomize = function() {
-  var randomNum = Math.floor(Math.random() * whll.length);
+  randomNum = Math.floor(Math.random() * whll.length);
   var guy = whll[randomNum];
   $('img').replaceWith('<img src='+whll[randomNum][2]+'>');
   $('#name').replaceWith('<div id="name">'+guy[0]+'</div>');
   $('#lookslike').replaceWith('<div id="lookslike">'+guy[1]+'</div>');};
 randomize();
-$('#clicky').click(randomize);
+
+//sets the person equal to the random number generated
+var guy = randomNum;
+loadpage = function(){
+  $('img').replaceWith('<img src='+whll[guy][2]+'>');
+  $('#name').replaceWith('<div id="name">'+whll[guy][0]+'</div>');
+  $('#lookslike').replaceWith('<div id="lookslike">'+whll[guy][1]+'</div>');
+};
+
+$("#next").on("click", function(){
+  if (guy == (whll.length - 1)){
+    guy = 0;
+    loadpage();
+  }else{
+    guy += 1;
+    loadpage();
+  };
+});
+
+$("#back").on("click", function(){
+  if(guy == 0){
+    guy = whll.length-1
+    loadpage();
+  }else{
+    guy -= 1;
+    loadpage();
+  };
+});
