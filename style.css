@@ -54,5 +54,10 @@ button {
 }
 
 .fa-github {
-  font-size: 28px;
+  font-size: 32px;
+  color: #B7AE5F;
+  transition: .5s;
+}
+.fa-github:hover {
+  color: black;
 }
