@@ -1,0 +1,2 @@
+class LookslikesController < ApplicationController
+end
