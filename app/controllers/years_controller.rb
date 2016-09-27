@@ -5,5 +5,6 @@ class YearsController < ApplicationController
 
   def show
     @year = Year.find(params[:id])
+    @lookslikes = @year.lookslikes
   end
 end

@@ -3,3 +3,7 @@
 <p><%= @year.lookslikes.first.name %></p>
 <p><%= @year.lookslikes.first.looks_like %></p>
 <p><img src = '<%= @year.lookslikes.first.photo_url %>' ></p>
+
+<% @year.lookslikes.each do |ll| %>
+<%= link_to ll.name, year_lookslike_path(@year, ll) %>
+<% end %>
