@@ -1,9 +1,16 @@
-<h2>In the year <%= @year.year %> </h2>
+<h1 class="text-center"><%= @year.year %></h1>
 
-<p><%= @year.lookslikes.first.name %></p>
+<!-- <p><%= @year.lookslikes.first.name %></p>
 <p><%= @year.lookslikes.first.looks_like %></p>
-<p><img src = '<%= @year.lookslikes.first.photo_url %>' ></p>
-
-<% @year.lookslikes.each do |ll| %>
-<%= link_to ll.name, year_lookslike_path(@year, ll) %>
-<% end %>
+<p><img src = '<%= @year.lookslikes.first.photo_url %>' ></p> -->
+<div class="row">
+  <% @year.lookslikes.each do |ll| %>
+  <div class="col-md-4 year-looks-like">
+    <div class="year-show-img" style="background-image:url(<%=ll.photo_url%>)">
+    </div>
+    <div class="year-show-name text-center">
+      <%= link_to ll.name, year_lookslike_path(@year, ll) %>
+    </div>
+  </div>
+  <% end %>
+</div>
