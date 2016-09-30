@@ -2,14 +2,22 @@
   height: 200px;
   background-position: center;
   background-size: cover;
+  transition: 1s ease;
 }
-.year-show-name{
-  background-color: black;
-}
-.year-show-name a{
+.year-show-link-text{
   color: white;
+  background-color: black;
+  padding-top: 5px;
+}
+.year-show-link-text:hover{
+  text-decoration: underline;
 }
 .year-looks-like{
   padding:0;
   border: 5px solid black;
+  overflow: hidden;
+}
+.year-show-img:hover {
+  transition: all 1s ease;
+  transform: scale(1.05);
 }
