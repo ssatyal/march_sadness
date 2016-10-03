@@ -4,6 +4,7 @@ class LookslikesController < ApplicationController
   end
 
   def show
-    @lookslike = Lookslike.find(params[:id])
+    @year = Year.find(params[:year_id])
+    @lookslike = @year.lookslikes.find(params[:id])
   end
 end

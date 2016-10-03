@@ -1,10 +1,11 @@
 class Lookslike < ActiveRecord::Base
   belongs_to :year
-  # def self.next(lookslikes)
-  #   where('id < ?', lookslikes.id).last
-  # end
-  #
-  # def self.previous(lookslikes)
-  #   where('id > ?', lookslikes.id).first
-  # end
+
+  def next
+    Lookslike.where("id > ?", id).first
+  end
+
+  def prev
+    Lookslike.where("id < ?", id).last
+  end
 end

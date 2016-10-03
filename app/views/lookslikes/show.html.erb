@@ -1,3 +1,7 @@
 <h2><%=@lookslike.name%></h2>
 <h3><%=@lookslike.looks_like%></h3>
-<img src="<%=@lookslike.photo_url%>"
+<div>
+  <%= link_to "Previous", year_lookslike_path(@lookslike.year, @lookslike.prev) if @lookslike.prev && @lookslike.prev.year.year == @lookslike.year.year %>
+  <%= link_to "Next", year_lookslike_path(@lookslike.year, @lookslike.next) if @lookslike.next && @lookslike.next.year.year == @lookslike.year.year %>
+</div>
+<img src="<%=@lookslike.photo_url%>">

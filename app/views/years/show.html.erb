@@ -1,8 +1,4 @@
 <h1 class="text-center"><%= @year.year %></h1>
-
-<!-- <p><%= @year.lookslikes.first.name %></p>
-<p><%= @year.lookslikes.first.looks_like %></p>
-<p><img src = '<%= @year.lookslikes.first.photo_url %>' ></p> -->
 <div class="row">
   <% @year.lookslikes.each do |ll| %>
     <div class="col-md-4 year-looks-like">
