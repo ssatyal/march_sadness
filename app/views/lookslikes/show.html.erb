@@ -1,7 +1,11 @@
-<h2><%=@lookslike.name%></h2>
-<h3><%=@lookslike.looks_like%></h3>
-<div>
-  <%= link_to "Previous", year_lookslike_path(@lookslike.year, @lookslike.prev) if @lookslike.prev && @lookslike.prev.year.year == @lookslike.year.year %>
-  <%= link_to "Next", year_lookslike_path(@lookslike.year, @lookslike.next) if @lookslike.next && @lookslike.next.year.year == @lookslike.year.year %>
+<h1 class="text-center"><%=@lookslike.name%></h1>
+<h3 class="text-center"><%=@lookslike.looks_like%></h3>
+<div class="lookslike-img-container text-center">
+  <img class="lookslike-img" src="<%=@lookslike.photo_url%>">
 </div>
-<img src="<%=@lookslike.photo_url%>">
+<div class="row text-center">
+  <%= link_to "Previous", year_lookslike_path(@lookslike.year, @lookslike.prev), :class => "btn btn-primary col-sm-4" if @lookslike.prev && @lookslike.prev.year.year == @lookslike.year.year%>
+  <p>id here?: <%=@lookslike.id + 1 - @year.lookslikes.first.id%> / <%=@year.lookslikes.last.id - @year.lookslikes.first.id + 1%></p>
+  <%= link_to "Next", year_lookslike_path(@lookslike.year, @lookslike.next), :class => "btn btn-primary col-sm-4" if @lookslike.next && @lookslike.next.year.year == @lookslike.year.year %>
+  </div>
+</div>

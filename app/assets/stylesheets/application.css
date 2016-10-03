@@ -1,3 +1,4 @@
+
 .year-show-img{
   height: 200px;
   background-position: center;
@@ -20,4 +21,15 @@
 .year-show-img:hover {
   transition: all 1s ease;
   transform: scale(1.05);
+}
+.lookslike-img{
+    max-width: 500px;
+    max-height: 300px;
+    height: auto;
+    border: 10px double black;
+    margin: 10px;
+}
+.lookslike-img-container{
+  min-height: 350px;
+  border: 1px solid red;
 }
