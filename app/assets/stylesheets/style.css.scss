@@ -69,3 +69,18 @@ a:hover{
   color: $dark-green;
   font-size: 20px;
 }
+.navbar{
+  background-color: $light-teal;
+}
+.navbar-default .navbar-nav>li>a {
+  color: $dark-green;
+  &:hover{
+    color: $dark-grey;
+  }
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+  color: $dark-grey;
+}
+.navbar-default .navbar-brand {
+  color: $dark-green;
+}
