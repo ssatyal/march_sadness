@@ -1,40 +1,14 @@
 
-.year-show-img{
-  height: 200px;
-  background-position: center;
-  background-size: cover;
-  transition: 1s ease;
-}
-.year-show-link-text{
-  color: white;
-  background-color: black;
-  padding-top: 5px;
-}
-.year-show-link-text:hover{
-  text-decoration: underline;
-}
-.year-looks-like{
-  padding:0;
-  border: 5px solid black;
-  overflow: hidden;
-}
-.year-show-img:hover {
-  transition: all 1s ease;
-  transform: scale(1.05);
-}
-.lookslike-img{
-  max-width: 500px;
-  max-height: 300px;
-  height: auto;
-  border: 10px double black;
-  margin: 10px;
-}
-.lookslike-img-container{
-  min-height: 325px;
-  border: 1px solid red;
-}
-.lookslike-text {
-  margin: 0 auto;
-  min-height: 75px;
-  font-size: 20px;
-}
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+* or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require_self
+*= require_tree .
+*/

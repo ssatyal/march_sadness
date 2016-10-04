@@ -5,8 +5,8 @@
 </div>
 <div class="row text-center">
   <div class="col-md-4"><%= link_to "Previous", year_lookslike_path(@lookslike.year, @lookslike.prev), :class => "btn btn-primary col-md-12" if @lookslike.prev && @lookslike.prev.year.year == @lookslike.year.year%></div>
-  <p class="col-md-4"><%=@lookslike.id + 1 - @year.lookslikes.first.id%> / <%=@year.lookslikes.last.id - @year.lookslikes.first.id + 1%></p>
+  <div class="col-md-4" id="counter"><%=@lookslike.id + 1 - @year.lookslikes.first.id%> / <%=@year.lookslikes.last.id - @year.lookslikes.first.id + 1%></div>
   <div class="col-md-4"><%= link_to "Next", year_lookslike_path(@lookslike.year, @lookslike.next), :class => "btn btn-primary col-md-12" if @lookslike.next && @lookslike.next.year.year == @lookslike.year.year %>
   </div>
-  </div>
+</div>
 </div>

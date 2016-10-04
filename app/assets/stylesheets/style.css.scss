@@ -1,0 +1,71 @@
+$grey:         #DEE5E5;
+$light-teal:   #9DC5BB;
+$teal:         #17B890;
+$dark-grey:    #5E807F;
+$dark-green:   #082D0F;
+
+body{
+  background-color: $grey;
+}
+h1, h2, h3{
+  color: $dark-green;
+}
+a:hover{
+  text-decoration: none;
+}
+.year-show-img{
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  transition: 1s ease;
+}
+.year-show-link-text{
+  color: $grey;
+  background-color: $dark-green;
+  padding-top: 5px;
+}
+.year-looks-like{
+  padding:0;
+  border: 5px solid $dark-green;;
+  overflow: hidden;
+}
+.year-show-img:hover{
+  transition: all 1s ease;
+  transform: scale(1.05);
+}
+.lookslike-img{
+  max-width: 500px;
+  max-height: 300px;
+  height: auto;
+  border: 10px double $dark-green;
+  margin: 10px;
+}
+.lookslike-img-container{
+  min-height: 325px;
+}
+.lookslike-text{
+  margin: 0 auto;
+  min-height: 75px;
+  font-size: 20px;
+  color: $dark-green;
+}
+.btn-primary{
+  background-color: $dark-grey;
+  border-color: $dark-grey;
+  &:hover{
+    background-color: darken($dark-grey, 10%);
+  }
+  &:active{
+    background-color: darken($dark-grey, 10%);
+  }
+  &:active:focus{
+    background-color: darken($dark-grey, 10%);
+  }
+  &:visited{
+    background-color: $dark-grey;
+  }
+}
+#counter{
+  color: $dark-green;
+  font-size: 20px;
+}
