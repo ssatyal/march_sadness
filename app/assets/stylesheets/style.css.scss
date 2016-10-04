@@ -2,13 +2,14 @@ $grey:         #DEE5E5;
 $light-teal:   #9DC5BB;
 $teal:         #17B890;
 $dark-grey:    #5E807F;
-$dark-green:   #082D0F;
+$gunmetal:     #2c3539;
+$orange:       #FF4500;
 
 body{
   background-color: $grey;
 }
 h1, h2, h3{
-  color: $dark-green;
+  color: $gunmetal;
 }
 a:hover{
   text-decoration: none;
@@ -21,12 +22,12 @@ a:hover{
 }
 .year-show-link-text{
   color: $grey;
-  background-color: $dark-green;
+  background-color: $gunmetal;
   padding-top: 5px;
 }
 .year-looks-like{
   padding:0;
-  border: 5px solid $dark-green;;
+  border: 5px solid $gunmetal;;
   overflow: hidden;
 }
 .year-show-img:hover{
@@ -37,7 +38,7 @@ a:hover{
   max-width: 500px;
   max-height: 300px;
   height: auto;
-  border: 10px double $dark-green;
+  border: 10px double $gunmetal;
   margin: 10px;
 }
 .lookslike-img-container{
@@ -47,44 +48,44 @@ a:hover{
   margin: 0 auto;
   min-height: 75px;
   font-size: 20px;
-  color: $dark-green;
+  color: $gunmetal;
 }
 .btn-primary{
-  background-color: $dark-grey;
-  border-color: $dark-grey;
+  background-color: $gunmetal;
+  border-color: $gunmetal;
   &:visited{
-    background-color: $dark-grey;
-    border-color: $dark-grey;
+    background-color: $gunmetal;
+    border-color: $gunmetal;
   }
   &:hover{
-    background-color: darken($dark-grey, 10%);
-    border-color: darken($dark-grey, 10%);
+    background-color: darken($gunmetal, 10%);
+    border-color: darken($gunmetal, 10%);
   }
   &:active{
-    background-color: darken($dark-grey, 10%);
-    border-color: darken($dark-grey, 10%);
+    background-color: darken($gunmetal, 10%);
+    border-color: darken($gunmetal, 10%);
   }
   &:active:focus{
-    background-color: darken($dark-grey, 10%);
-    border-color: darken($dark-grey, 10%);
+    background-color: darken($gunmetal, 10%);
+    border-color: darken($gunmetal, 10%);
   }
 }
 #counter{
-  color: $dark-green;
+  color: $gunmetal;
   font-size: 20px;
 }
 .navbar{
-  background-color: $light-teal;
+  background-color: $orange;
 }
 .navbar-default .navbar-nav>li>a {
-  color: $dark-green;
+  color: $gunmetal;
   &:hover{
-    color: $dark-grey;
+    color: $grey;
   }
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
-  color: $dark-grey;
+  color: $grey;
 }
 .navbar-default .navbar-brand {
-  color: $dark-green;
+  color: $gunmetal;
 }
