@@ -8,6 +8,13 @@ $orange:       #FF4500;
 body{
   background-color: $grey;
 }
+#splash {
+  border: 10px solid $gunmetal;
+  height: 300px;
+  width: 100%;
+  background-image: url("http://i.imgur.com/LP0h0mX.jpg?1");
+  background-size: cover;
+}
 h1, h2, h3{
   color: $gunmetal;
 }
@@ -85,16 +92,35 @@ a:hover{
   background-color: $orange;
 }
 .navbar-default .navbar-nav>li>a {
-  color: $gunmetal;
+  color: $grey;
+  transition: ease-in 0.3s;
   &:hover{
-    color: $grey;
+    color: lighten($grey, 25%);
+    transition: ease-in 0.3s;
   }
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
-  color: $grey;
+  color: lighten($grey, 20%);
+  transition: ease-in 0.3s;
 }
 .navbar-default .navbar-brand {
-  color: $gunmetal;
+  color: $grey;
+  transition: ease-in 0.3s;
+}
+.year-link {
+  font-size: 20px;
+  a{
+    color: $gunmetal;
+    transition: ease-in 0.3s;
+    &:hover{
+      color: $orange;
+    }
+  }
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 @media (max-width: 1000px) {
   .year-show-link-text {
