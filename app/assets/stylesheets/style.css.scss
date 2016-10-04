@@ -13,6 +13,7 @@ h1, h2, h3{
 }
 a:hover{
   text-decoration: none;
+  color: $orange;
 }
 .year-show-img{
   height: 200px;
@@ -21,7 +22,6 @@ a:hover{
   transition: 1s ease;
 }
 .year-show-link-text{
-  color: $grey;
   background-color: $gunmetal;
   padding-top: 5px;
 }
@@ -29,6 +29,13 @@ a:hover{
   padding:0;
   border: 5px solid $gunmetal;;
   overflow: hidden;
+  a {
+    color: $grey;
+    transition: ease-in 0.2s;
+  }
+  a:hover{
+    color: $orange;
+  }
 }
 .year-show-img:hover{
   transition: all 1s ease;
@@ -88,4 +95,9 @@ a:hover{
 }
 .navbar-default .navbar-brand {
   color: $gunmetal;
+}
+@media (max-width: 1000px) {
+  .year-show-link-text {
+    display: none;
+  }
 }
