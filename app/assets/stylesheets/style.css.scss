@@ -52,17 +52,21 @@ a:hover{
 .btn-primary{
   background-color: $dark-grey;
   border-color: $dark-grey;
+  &:visited{
+    background-color: $dark-grey;
+    border-color: $dark-grey;
+  }
   &:hover{
     background-color: darken($dark-grey, 10%);
+    border-color: darken($dark-grey, 10%);
   }
   &:active{
     background-color: darken($dark-grey, 10%);
+    border-color: darken($dark-grey, 10%);
   }
   &:active:focus{
     background-color: darken($dark-grey, 10%);
-  }
-  &:visited{
-    background-color: $dark-grey;
+    border-color: darken($dark-grey, 10%);
   }
 }
 #counter{
