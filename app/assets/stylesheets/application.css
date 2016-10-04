@@ -23,13 +23,18 @@
   transform: scale(1.05);
 }
 .lookslike-img{
-    max-width: 500px;
-    max-height: 300px;
-    height: auto;
-    border: 10px double black;
-    margin: 10px;
+  max-width: 500px;
+  max-height: 300px;
+  height: auto;
+  border: 10px double black;
+  margin: 10px;
 }
 .lookslike-img-container{
-  min-height: 350px;
+  min-height: 325px;
   border: 1px solid red;
+}
+.lookslike-text {
+  margin: 0 auto;
+  min-height: 75px;
+  font-size: 20px;
 }
