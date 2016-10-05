@@ -4,6 +4,7 @@ $orange:       #FF4500;
 
 body{
   background-color: $grey;
+  font-family: 'Merriweather', serif;
 }
 #splash {
   border: 10px solid $gunmetal;
@@ -14,6 +15,9 @@ body{
 }
 h1, h2, h3{
   color: $gunmetal;
+}
+h2, h3 {
+  font-family: 'Lato', sans-serif;
 }
 a:hover{
   text-decoration: none;
@@ -46,7 +50,6 @@ a:hover{
 }
 .year-show-img:hover{
   transition: all 1s ease;
-  // transform: scale(1.05);
 }
 .lookslike-img{
   max-width: 500px;
