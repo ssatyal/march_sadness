@@ -1,0 +1,16 @@
+<h1 class="text-center"><%= @year.year %></h1>
+<div class="row">
+  <% @year.lookslikes.each do |ll| %>
+    <div class="col-sm-4 year-looks-like">
+      <%= link_to year_lookslike_path(@year, ll) do %>
+      <div class="year-show-img" style="background-image:url(<%=ll.photo_url%>)">
+      </div>
+      <div class="year-show-name text-center">
+        <div class="year-show-link-text">
+          <%=ll.name%>
+        </div>
+      </div>
+    </div>
+    <% end %>
+  <% end %>
+</div>

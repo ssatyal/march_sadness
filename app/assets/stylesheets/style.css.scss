@@ -1,0 +1,133 @@
+$grey:         #DEE5E5;
+$gunmetal:     #2c3539;
+$orange:       #FF4500;
+
+body{
+  background-color: $grey;
+  font-family: 'Merriweather', serif;
+}
+#splash {
+  border: 10px solid $gunmetal;
+  height: 300px;
+  width: 100%;
+  background-image: url("http://i.imgur.com/LP0h0mX.jpg?1");
+  background-size: cover;
+}
+h1, h2, h3{
+  color: $gunmetal;
+}
+h2, h3 {
+  font-family: 'Lato', sans-serif;
+}
+a:hover{
+  text-decoration: none;
+  color: $orange;
+}
+.year-show-img{
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  transition: 1s ease;
+}
+.year-show-link-text{
+  background-color: $gunmetal;
+  padding-top: 5px;
+}
+.year-looks-like{
+  padding:0;
+  border: 5px solid $gunmetal;;
+  overflow: hidden;
+  &:hover .year-show-img {
+    transform: scale(1.05);
+  }
+  a {
+    color: $grey;
+    transition: ease-in 0.2s;
+  }
+  a:hover{
+    color: $orange;
+  }
+}
+.year-show-img:hover{
+  transition: all 1s ease;
+}
+.lookslike-img{
+  max-width: 500px;
+  max-height: 300px;
+  height: auto;
+  border: 10px double $gunmetal;
+  margin: 10px;
+}
+.lookslike-img-container{
+  min-height: 325px;
+}
+.lookslike-text{
+  margin: 0 auto;
+  min-height: 75px;
+  font-size: 20px;
+  color: $gunmetal;
+}
+.btn-primary{
+  background-color: $gunmetal;
+  border-color: $gunmetal;
+  &:visited{
+    background-color: $gunmetal;
+    border-color: $gunmetal;
+  }
+  &:hover{
+    background-color: darken($gunmetal, 10%);
+    border-color: darken($gunmetal, 10%);
+  }
+  &:active{
+    background-color: darken($gunmetal, 10%);
+    border-color: darken($gunmetal, 10%);
+  }
+  &:active:focus{
+    background-color: darken($gunmetal, 10%);
+    border-color: darken($gunmetal, 10%);
+  }
+}
+#counter{
+  color: $gunmetal;
+  font-size: 20px;
+}
+.navbar{
+  background-color: $orange;
+  font-family: 'Lato', sans-serif;
+}
+.navbar-default .navbar-nav>li>a {
+  color: $grey;
+  transition: ease-in 0.3s;
+  &:hover{
+    color: lighten($grey, 25%);
+    transition: ease-in 0.3s;
+  }
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+  color: lighten($grey, 20%);
+  transition: ease-in 0.3s;
+}
+.navbar-default .navbar-brand {
+  color: $grey;
+  transition: ease-in 0.3s;
+}
+.year-link {
+  font-size: 20px;
+  a{
+    color: $gunmetal;
+    transition: ease-in 0.3s;
+    &:hover{
+      color: $orange;
+    }
+  }
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+@media (max-width: 1000px) {
+  .year-show-link-text {
+    display: none;
+  }
+}
