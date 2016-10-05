@@ -1,7 +1,4 @@
 $grey:         #DEE5E5;
-$light-teal:   #9DC5BB;
-$teal:         #17B890;
-$dark-grey:    #5E807F;
 $gunmetal:     #2c3539;
 $orange:       #FF4500;
 
@@ -36,6 +33,9 @@ a:hover{
   padding:0;
   border: 5px solid $gunmetal;;
   overflow: hidden;
+  &:hover .year-show-img {
+    transform: scale(1.05);
+  }
   a {
     color: $grey;
     transition: ease-in 0.2s;
@@ -46,7 +46,7 @@ a:hover{
 }
 .year-show-img:hover{
   transition: all 1s ease;
-  transform: scale(1.05);
+  // transform: scale(1.05);
 }
 .lookslike-img{
   max-width: 500px;
