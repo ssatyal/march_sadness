@@ -1,11 +1,20 @@
 Year.destroy_all
 Lookslike.destroy_all
 
-sixteen = Year.create!(year: 2016)
-fifteen = Year.create!(year: 2015)
+sixteen = Year.create!(year: "2016")
+fifteen = Year.create!(year: "2015")
 
-fifteen.lookslikes.create!(name: "Stugotz", looks_like: "Looks very sick.", photo_url: "http://www.adweek.com/tvnewser/wp-content/uploads/sites/3/2015/11/stugotz.png")
+fifteen.lookslikes.create!(name: "Jeff Van Gundy",
+looks_like: "Looks like the Queen of Hearts.",
+photo_url: "http://i.imgur.com/rwPfmkD.jpg?1")
 
+fifteen.lookslikes.create!(name: "George Karl",
+looks_like: "Looks like the leader of a nudist colony.",
+photo_url: "http://i.imgur.com/acrcSIU.jpg")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
 
 sixteen.lookslikes.create!(name: 'Jim Caldwell',
 looks_like: 'Looks like the nervous armored car driver transporting his largest and last delivery, suspicious his new partner might be up to something. Jay Cutler is his new partner.',
