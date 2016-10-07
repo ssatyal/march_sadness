@@ -7,9 +7,10 @@ body{
   font-family: 'Merriweather', serif;
 }
 #splash {
-  border: 10px solid $gunmetal;
+  width: 80%;
+  margin: 0 auto;
+  border: 5px solid $gunmetal;
   height: 300px;
-  width: 100%;
   background-image: url("http://i.imgur.com/LP0h0mX.jpg?1");
   background-size: cover;
 }
@@ -66,6 +67,7 @@ a:hover{
   min-height: 75px;
   font-size: 20px;
   color: $gunmetal;
+  margin: 0px 5px 0px 5px;
 }
 .btn-primary{
   background-color: $gunmetal;
