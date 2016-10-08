@@ -75,6 +75,9 @@ ul li:hover{
   font-size: 20px;
   color: $gunmetal;
   margin: 0px 5px 0px 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .btn-primary{
   background-color: $gunmetal;
