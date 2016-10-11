@@ -212,6 +212,7 @@ hr {
     }
     #year-show-year{
       font-size: 50px;
+      font-family: 'Lato', sans-serif;
     }
     .navbar {
       min-height: 100px;
@@ -261,5 +262,11 @@ hr {
     }
     #splash {
       width: 100%;
+    }
+    .navbar-default .navbar-nav>li>a {
+      padding: 30px;
+    }
+    .navbar-default .navbar-nav>li {
+      text-align: center;
     }
 }
