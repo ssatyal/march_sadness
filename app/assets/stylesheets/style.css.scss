@@ -148,6 +148,9 @@ hr {
 .navigate-show-secondary{
   display: none;
 }
+#year-show-year{
+  font-family: 'Lato', sans-serif;
+}
 @media (max-width: 1000px) {
   .year-show-link-text {
     display: none;
@@ -212,7 +215,6 @@ hr {
     }
     #year-show-year{
       font-size: 50px;
-      font-family: 'Lato', sans-serif;
     }
     .navbar {
       min-height: 100px;
