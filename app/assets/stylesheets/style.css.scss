@@ -151,6 +151,10 @@ hr {
 #year-show-year{
   font-family: 'Lato', sans-serif;
 }
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
 @media (max-width: 1000px) {
   .year-show-link-text {
     display: none;
