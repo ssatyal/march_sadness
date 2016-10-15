@@ -25,7 +25,7 @@ looks_like: "Looks like a generic police sketch.",
 photo_url: "http://i.imgur.com/ptt8aqd.jpg")
 
 fifteen.lookslikes.create!(name: "Andy Reid",
-looks_like: 'Looks like he waggles his fingers in front of a tray of doughnuts and says, "Don\'t mind if I do.',
+looks_like: 'Looks like he waggles his fingers in front of a tray of doughnuts and says, "Don\'t mind if I do."',
 photo_url: "http://i.imgur.com/Q0HrL8k.jpg")
 
 fifteen.lookslikes.create!(name: "Marcin Gortat",
@@ -65,7 +65,7 @@ looks_like: "Looks like a cartoon moose.",
 photo_url: "http://i.imgur.com/ZGNrgQU.jpg")
 
 fifteen.lookslikes.create!(name: "Chip Kelly",
-looks_like: 'Looks like the guy who leaves comically low tips to service people, then shoots the finger gun and says, "Don\'t spend it all in one place".',
+looks_like: 'Looks like the guy who leaves comically low tips to service people, then shoots the finger gun and says, "Don\'t spend it all in one place."',
 photo_url: "http://i.imgur.com/3F4bLhH.jpg")
 
 fifteen.lookslikes.create!(name: "Chip Kelly",
@@ -109,7 +109,7 @@ looks_like: 'Looks like he constantly tells his family, "I\'m not sleeping, I\'m
 photo_url: "http://i.imgur.com/DkPCwXH.jpg")
 
 fifteen.lookslikes.create!(name: "Ed Orgeron",
-looks_like: 'Looks like a BBQ pitmaster who is constantly wiping sweat from his face while explaining his secret BBQ recipe is, "cajun love, brother."',
+looks_like: 'Looks like a BBQ pitmaster who is constantly wiping sweat from his face while explaining his secret BBQ recipe is "cajun love, brother."',
 photo_url: "http://i.imgur.com/qIXCpoK.jpg")
 
 fifteen.lookslikes.create!(name: "Dwane Casey",
