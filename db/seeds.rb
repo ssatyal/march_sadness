@@ -49,68 +49,96 @@ looks_like: "Looks like the president in a cable television network drama.",
 photo_url: "http://i.imgur.com/GdKkoja.jpg")
 
 fifteen.lookslikes.create!(name: "Nick Saban",
-looks_like: 'Looks like the guy who runs a lap, looks at his stopwatch and says, "Still go it," while snapping his fingers.',
+looks_like: 'Looks like the guy who runs a lap, looks at his stopwatch and says, "Still got it," while snapping his fingers.',
 photo_url: "http://i.imgur.com/ebyeetK.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Frank Vogel",
+looks_like: "Looks like a guy who keeps calling you to hang out and you keep creating excuses not to go.",
+photo_url: "http://i.imgur.com/B0m3NsB.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Trey Wingo",
+looks_like: "Looks like a guy who owns a funeral home and does late-night infomercials promoting his seasonally discounted rates.",
+photo_url: "http://i.imgur.com/5j0vpI0.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Deandre Jordan",
+looks_like: "Looks like a cartoon moose.",
+photo_url: "http://i.imgur.com/ZGNrgQU.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Chip Kelly",
+looks_like: 'Looks like the guy who leaves comically low tips to service people, then shoots the finger gun and says, "Don\'t spend it all in one place".',
+photo_url: "http://i.imgur.com/3F4bLhH.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Chip Kelly",
+looks_like: "Looks like the guy who washes his yacht shirtless.",
+photo_url: "http://i.imgur.com/6zhrWXU.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Ron Rivera",
+looks_like: "Looks like the guy who wears a lei for his entire vacation in Hawaii.",
+photo_url: "http://i.imgur.com/PCoGmiJ.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Jack Del Rio",
+looks_like: "Looks like a stepdad who tries too hard to be called dad.",
+photo_url: "http://i.imgur.com/haMJJAk.jpg?1")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Orel Hershiser",
+looks_like: "Looks like the father in the picture of the frame that you buy at Walmart.",
+photo_url: "http://i.imgur.com/JZsgHHy.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Donnie Walsh",
+looks_like: "Looks like he's in town to kill a guy.",
+photo_url: "http://i.imgur.com/eGQrtct.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Shane Battier",
+looks_like: "Looks like the tennis coach who gets too close to your wife.",
+photo_url: "http://i.imgur.com/EqrYTIs.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Tom Thibodeau",
+looks_like: "Looks like a butcher.",
+photo_url: "http://i.imgur.com/pyzkE1y.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Avery Johnson",
+looks_like: "Looks like a judge on a daytime television show.",
+photo_url: "http://i.imgur.com/5yJhBQ7.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Romeo Crennel",
+looks_like: "Looks like the courtroom bailiff in a small southern town who nods off to sleep during the middle of proceedings only to be woken up when the judge hits his gavel.",
+photo_url: "http://i.imgur.com/oBsxtNV.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Mike Woodson",
+looks_like: 'Looks like he constantly tells his family, "I\'m not sleeping, I\'m just resting my eyes".',
+photo_url: "http://i.imgur.com/DkPCwXH.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Ed Orgeron",
+looks_like: 'Looks like a BBQ pitmaster who is constantly wiping sweat from his face while explaining his secret BBQ recipe is, "cajun love, brother."',
+photo_url: "http://i.imgur.com/qIXCpoK.jpg")
+
+fifteen.lookslikes.create!(name: "Dwane Casey",
+looks_like: "Looks like a sad-faced clown who has trouble removing all of his makeup.",
+photo_url: "http://i.imgur.com/6l1yWG0.jpg")
+
+fifteen.lookslikes.create!(name: "Mike Budenholzer",
+looks_like: "Looks like a sad-faced clown who has trouble removing all of his makeup.",
+photo_url: "http://i.imgur.com/TmVtRXp.jpg")
+
+fifteen.lookslikes.create!(name: "Stephen A. Smith",
+looks_like: "Looks like the family member at Thanksgiving that takes personal offense when someone else declares sweet potatoes as the best dish over stuffing.",
+photo_url: "http://i.imgur.com/aXN55Th.jpg")
+
+fifteen.lookslikes.create!(name: "Tony Dungy",
+looks_like: "Looks like the guy who has fishing lures in his hat.",
+photo_url: "http://i.imgur.com/CNlisQp.jpg")
+
+fifteen.lookslikes.create!(name: "Bret Bielema",
+looks_like: 'Looks like Looks like he nicknamed himself "Mr. Saturday Night" and gets mad when his friends don\'t call him that.',
+photo_url: "http://i.imgur.com/9G0Eu5e.jpg")
+
+fifteen.lookslikes.create!(name: "Jack Del Rio",
+looks_like: "Looks like a retired cop who lives on a houseboat and solves crimes in his spare time.",
+photo_url: "http://i.imgur.com/sYuK1z1.jpg")
+
+# fifteen.lookslikes.create!(name: "Terry Stotts",
+# looks_like: "Looks like a member of Parliament.",
+# photo_url: "http://i.imgur.com/m4Dln0h.jpg")
 
 # fifteen.lookslikes.create!(name: "",
 # looks_like: "Looks like .",
