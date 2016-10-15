@@ -12,6 +12,114 @@ fifteen.lookslikes.create!(name: "George Karl",
 looks_like: "Looks like the leader of a nudist colony.",
 photo_url: "http://i.imgur.com/acrcSIU.jpg")
 
+fifteen.lookslikes.create!(name: "Nenê",
+looks_like: "Looks like a gladiator that will help you slay a tiger then join you as you embark on a quest.",
+photo_url: "http://i.imgur.com/0ER62rz.jpg")
+
+fifteen.lookslikes.create!(name: "J.J. Redick",
+looks_like: "Looks like a sketchy car valet who might take your car for a joy ride.",
+photo_url: "http://i.imgur.com/0GKGoEl.jpg")
+
+fifteen.lookslikes.create!(name: "Mike Dunleavy Jr.",
+looks_like: "Looks like a generic police sketch.",
+photo_url: "http://i.imgur.com/ptt8aqd.jpg")
+
+fifteen.lookslikes.create!(name: "Andy Reid",
+looks_like: 'Looks like he waggles his fingers in front of a tray of doughnuts and says, "Don\'t mind if I do.',
+photo_url: "http://i.imgur.com/Q0HrL8k.jpg")
+
+fifteen.lookslikes.create!(name: "Marcin Gortat",
+looks_like: "Looks like a guy who becomes a YouTube sensation by wrestling bears shirtless.",
+photo_url: "http://i.imgur.com/9yJ0dsS.jpg")
+
+fifteen.lookslikes.create!(name: "Kris Humphries",
+looks_like: "Looks like a male cheerleader.",
+photo_url: "http://i.imgur.com/8wx29Ys.jpg")
+
+fifteen.lookslikes.create!(name: "Russell Wilson",
+looks_like: "Looks like a male cheerleader.",
+photo_url: "http://i.imgur.com/oXgukeQ.jpg")
+
+fifteen.lookslikes.create!(name: "Jerry Sloan",
+looks_like: "Looks like he washes his hair with a bar of soap.",
+photo_url: "http://i.imgur.com/8LTg9oy.jpg")
+
+fifteen.lookslikes.create!(name: "David Shaw",
+looks_like: "Looks like the president in a cable television network drama.",
+photo_url: "http://i.imgur.com/GdKkoja.jpg")
+
+fifteen.lookslikes.create!(name: "Nick Saban",
+looks_like: 'Looks like the guy who runs a lap, looks at his stopwatch and says, "Still go it," while snapping his fingers.',
+photo_url: "http://i.imgur.com/ebyeetK.jpg")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
 # fifteen.lookslikes.create!(name: "",
 # looks_like: "Looks like .",
 # photo_url: "")
