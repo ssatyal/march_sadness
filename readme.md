@@ -4,3 +4,4 @@
 - redirect link to SS tab or social media icons
 - buy domain, deploy
 - twitter card preview?
+- DRY html next / prev buttons
