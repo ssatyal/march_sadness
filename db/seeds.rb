@@ -136,9 +136,157 @@ fifteen.lookslikes.create!(name: "Jack Del Rio",
 looks_like: "Looks like a retired cop who lives on a houseboat and solves crimes in his spare time.",
 photo_url: "http://i.imgur.com/sYuK1z1.jpg")
 
-# fifteen.lookslikes.create!(name: "Terry Stotts",
-# looks_like: "Looks like a member of Parliament.",
-# photo_url: "http://i.imgur.com/m4Dln0h.jpg")
+fifteen.lookslikes.create!(name: "Terry Stotts",
+looks_like: "Looks like a member of Parliament.",
+photo_url: "http://i.imgur.com/m4Dln0h.jpg")
+
+fifteen.lookslikes.create!(name: "John Kerry",
+looks_like: "Looks like the Patriots' logo.",
+photo_url: "http://i.imgur.com/jhRLuXl.jpg")
+
+fifteen.lookslikes.create!(name: "Jeff Van Gundy",
+looks_like: "Looks like a medical examiner who eats a sandwich while conducting an autopsy.",
+photo_url: "http://i.imgur.com/CLcd2dh.jpg")
+
+fifteen.lookslikes.create!(name: "Pete Carroll",
+looks_like: "Looks like he runs a dojo.",
+photo_url: "http://i.imgur.com/UjipFde.jpg")
+
+fifteen.lookslikes.create!(name: "P.J. Carlesimo",
+looks_like: "Looks like the reader of the Geiger counter on a remote island who's the first to know some sort of catastrophe is coming to the mainland, but can't get anyone to listen .",
+photo_url: "http://i.imgur.com/qLuli8l.jpg")
+
+fifteen.lookslikes.create!(name: "Charlie Weis",
+looks_like: "Looks like he was cut in half and accidentally had the bottom half of his body sewn on backwards.",
+photo_url: "http://i.imgur.com/UYQi0w6.jpg")
+
+fifteen.lookslikes.create!(name: "Pete Carroll",
+looks_like: "Looks like he hits on your wife right in front of you.",
+photo_url: "http://i.imgur.com/3cDiwtm.jpg")
+
+fifteen.lookslikes.create!(name: "Mike Golic ",
+looks_like: 'Looks like a construction worker in a sewage drain yelling, "I need more light down here!"',
+photo_url: "http://i.imgur.com/okpnvHr.jpg")
+
+fifteen.lookslikes.create!(name: "Tyler Hansbrough",
+looks_like: "Looks like he is being haunted by ghosts that no one else sees.",
+photo_url: "http://i.imgur.com/8KlQ8c8.jpg")
+
+fifteen.lookslikes.create!(name: "Tyler Hansbrough",
+looks_like: 'Looks like the overzealous paintball player who rises from the leaves on the ground and asks, "Any last words?" as he shoots you seven times before you can utter a word.',
+photo_url: "http://i.imgur.com/KHbjlIC.jpg")
+
+fifteen.lookslikes.create!(name: "Stephen Ross",
+looks_like: "Looks like the old man who wears pajamas with a matching pointy hat and holds a candle to his face while checking on that noise downstairs.",
+photo_url: "http://i.imgur.com/qntspWC.jpg")
+
+fifteen.lookslikes.create!(name: "Marcin Gortat",
+looks_like: "Looks like a genie.",
+photo_url: "http://i.imgur.com/LSCztJW.png")
+
+fifteen.lookslikes.create!(name: "Marcin Gortat",
+looks_like: "Looks like a wizard.",
+photo_url: "http://i.imgur.com/G1N1G1O.jpg")
+
+fifteen.lookslikes.create!(name: "Mike Leach",
+looks_like: 'Looks like he loudly enters a room and says, "Working hard or hardly working?"',
+photo_url: "http://i.imgur.com/qMfUZkT.jpg")
+
+fifteen.lookslikes.create!(name: "Buster Olney",
+looks_like: "Looks like the guy at the gym who uses the treadmill right next to you even though the entire row of machines is empty.",
+photo_url: "http://i.imgur.com/7lhN4iv.jpg")
+
+fifteen.lookslikes.create!(name: "Randy Johnson",
+looks_like: 'Looks like he runs a bar in a small town and when you order a beer, he mutters to himself, "You\'re not from around here, are you?".',
+photo_url: "http://i.imgur.com/i9AnBke.jpg")
+
+fifteen.lookslikes.create!(name: "Jeff Van Gundy",
+looks_like: "Looks like the guy who can't sleep in a cold medicine commercial.",
+photo_url: "http://i.imgur.com/77HkkVe.jpg")
+
+# fifteen.lookslikes.create!(name: "Joe Maddon",
+# looks_like: "Looks like he would move to Barbados.",
+# photo_url: "http://i.imgur.com/y8qETSm.jpg")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
+
+# fifteen.lookslikes.create!(name: "",
+# looks_like: "Looks like .",
+# photo_url: "")
 
 # fifteen.lookslikes.create!(name: "",
 # looks_like: "Looks like .",
