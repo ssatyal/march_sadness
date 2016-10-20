@@ -4,7 +4,7 @@
   </div>
 </div>
 <h3 class="text-center" id="tagline">What Famous People in Sports Look Like</h3>
-<% @years.each do |year| %>
+<% @years.reverse_each do |year| %>
   <div class="text-center year-link">
     <h3 class="year-index-year">» <%= link_to year.year, year %></h3>
   </div>

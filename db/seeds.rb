@@ -1,9 +1,9 @@
 Year.destroy_all
 Lookslike.destroy_all
 
-sixteen = Year.create!(year:"2016 Entries")
-sixteen_tourney = Year.create!(year: "2016 Tournament")
 fifteen_tourney = Year.create!(year: "2015 Tournament")
+sixteen_tourney = Year.create!(year: "2016 Tournament")
+sixteen = Year.create!(year:"2016 Entries")
 
 fifteen_tourney.lookslikes.create!(name: "Jeff Van Gundy",
 looks_like: "Looks like the Queen of Hearts.",
