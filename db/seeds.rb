@@ -1,8 +1,8 @@
 Year.destroy_all
 Lookslike.destroy_all
 
-sixteen = Year.create!(year: "2016")
-fifteen = Year.create!(year: "2015")
+sixteen = Year.create!(year: "2016 Tournament")
+fifteen = Year.create!(year: "2015 Tournament")
 
 fifteen.lookslikes.create!(name: "Jeff Van Gundy",
 looks_like: "Looks like the Queen of Hearts.",
@@ -204,101 +204,77 @@ fifteen.lookslikes.create!(name: "Jeff Van Gundy",
 looks_like: "Looks like the guy who can't sleep in a cold medicine commercial.",
 photo_url: "http://i.imgur.com/77HkkVe.jpg")
 
-# fifteen.lookslikes.create!(name: "Joe Maddon",
-# looks_like: "Looks like he would move to Barbados.",
-# photo_url: "http://i.imgur.com/y8qETSm.jpg")
+fifteen.lookslikes.create!(name: "Joe Maddon",
+looks_like: "Looks like he would move to Barbados.",
+photo_url: "http://i.imgur.com/y8qETSm.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Lou Holtz",
+looks_like: "Looks like a train conductor.",
+photo_url: "http://i.imgur.com/xxileFa.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Kendrick Perkins",
+looks_like: "Looks like a pharoah.",
+photo_url: "http://i.imgur.com/qHwDgW4.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Tony Brothers",
+looks_like: "Looks like the boxing trainer who slaps his fighter in the middle of a losing bought.",
+photo_url: "http://i.imgur.com/3KC7SmR.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Kevin McHale",
+looks_like: "Looks like the high school biology teacher with feral and unrelenting halitosis, whose wife just left him for the tennis coach.",
+photo_url: "http://i.imgur.com/7GDjmEA.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Mike McCarthy",
+looks_like: "Looks like an Elvis impersonator.",
+photo_url: "http://i.imgur.com/nX0hxod.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Ben Roethlisberger",
+looks_like: "Looks like the way a four-year-old draws a person.",
+photo_url: "http://i.imgur.com/cBLArrh.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Mike Krzyzewski",
+looks_like: "Looks like a lieutenant on the Death Star.",
+photo_url: "http://i.imgur.com/Vwl3uaE.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Bo Pelini",
+looks_like: "Looks like a toe.",
+photo_url: "http://i.imgur.com/jvCgaCG.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Charles Barkley",
+looks_like: "Looks like a thumb.",
+photo_url: "http://i.imgur.com/HmQK9jt.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Stugotz",
+looks_like: 'Looks like the guy at Hooters who elbows you and says, "That\'s what I\'m talking about."',
+photo_url: "http://i.imgur.com/ziwXwy9.jpg?1")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "David Pollack",
+looks_like: "Looks like an assassin.",
+photo_url: "http://i.imgur.com/UFkNjpj.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Tony Siragusa",
+looks_like: "Looks like the guy who wears a bathrobe that is six inches too short while collecting his morning newspaper.",
+photo_url: "http://i.imgur.com/qjvKGCP.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Brad Stevens",
+looks_like: "Looks like the guy you must defeat in a sailboat race so that his daddy can't acquire your family's land to build a country club.",
+photo_url: "http://i.imgur.com/YkD3xAI.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Colin Cowherd",
+looks_like: "Looks like the guy in the movies who borrows money from the mafia but can't pay it back.",
+photo_url: "http://i.imgur.com/5Brp5qP.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Jim Caldwell",
+looks_like: 'Looks like a mechanic who comes out with a rag, wipes his brow and says, "It\'s gonna be a while".',
+photo_url: "http://i.imgur.com/tDypRmv.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Scott Van Pelt",
+looks_like: "Looks like one of the male reproductive organs.",
+photo_url: "http://i.imgur.com/l7tglYS.jpg")
 
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
-
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
-
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
-
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
-
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
-
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
-
-# fifteen.lookslikes.create!(name: "",
-# looks_like: "Looks like .",
-# photo_url: "")
+fifteen.lookslikes.create!(name: "Scott Van Pelt",
+looks_like: "Looks like a rodeo clown.",
+photo_url: "http://i.imgur.com/pvZmdbH.jpg")
 
 sixteen.lookslikes.create!(name: 'Jim Caldwell',
 looks_like: 'Looks like the nervous armored car driver transporting his largest and last delivery, suspicious his new partner might be up to something. Jay Cutler is his new partner.',
