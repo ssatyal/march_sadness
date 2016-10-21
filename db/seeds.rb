@@ -106,7 +106,7 @@ looks_like: "Looks like the courtroom bailiff in a small southern town who nods 
 photo_url: "http://i.imgur.com/oBsxtNV.jpg")
 
 fifteen_tourney.lookslikes.create!(name: "Mike Woodson",
-looks_like: 'Looks like he constantly tells his family, "I\'m not sleeping, I\'m just resting my eyes".',
+looks_like: 'Looks like he constantly tells his family, "I\'m not sleeping, I\'m just resting my eyes."',
 photo_url: "http://i.imgur.com/DkPCwXH.jpg")
 
 fifteen_tourney.lookslikes.create!(name: "Ed Orgeron",
@@ -154,7 +154,7 @@ looks_like: "Looks like he runs a dojo.",
 photo_url: "http://i.imgur.com/UjipFde.jpg")
 
 fifteen_tourney.lookslikes.create!(name: "P.J. Carlesimo",
-looks_like: "Looks like the reader of the Geiger counter on a remote island who's the first to know some sort of catastrophe is coming to the mainland, but can't get anyone to listen .",
+looks_like: "Looks like the reader of the Geiger counter on a remote island who's the first to know some sort of catastrophe is coming to the mainland, but can't get anyone to listen.",
 photo_url: "http://i.imgur.com/qLuli8l.jpg")
 
 fifteen_tourney.lookslikes.create!(name: "Charlie Weis",
@@ -198,7 +198,7 @@ looks_like: "Looks like the guy at the gym who uses the treadmill right next to 
 photo_url: "http://i.imgur.com/7lhN4iv.jpg")
 
 fifteen_tourney.lookslikes.create!(name: "Randy Johnson",
-looks_like: 'Looks like he runs a bar in a small town and when you order a beer, he mutters to himself, "You\'re not from around here, are you?".',
+looks_like: 'Looks like he runs a bar in a small town and when you order a beer, he mutters to himself, "You\'re not from around here, are you?"',
 photo_url: "http://i.imgur.com/i9AnBke.jpg")
 
 fifteen_tourney.lookslikes.create!(name: "Jeff Van Gundy",
@@ -266,7 +266,7 @@ looks_like: "Looks like the guy in the movies who borrows money from the mafia b
 photo_url: "http://i.imgur.com/5Brp5qP.jpg")
 
 fifteen_tourney.lookslikes.create!(name: "Jim Caldwell",
-looks_like: 'Looks like a mechanic who comes out with a rag, wipes his brow and says, "It\'s gonna be a while".',
+looks_like: 'Looks like a mechanic who comes out with a rag, wipes his brow and says, "It\'s gonna be a while."',
 photo_url: "http://i.imgur.com/tDypRmv.jpg")
 
 fifteen_tourney.lookslikes.create!(name: "Scott Van Pelt",
@@ -338,7 +338,7 @@ looks_like: 'Looks like the guy at church who points to the sky with his eyes cl
 photo_url: 'http://i.imgur.com/CP7VWdKm.jpg')
 
 sixteen_tourney.lookslikes.create!(name: 'Matthew Stafford ',
-looks_like: 'Looks like your friend\'s friend who uses your bathroom, comes out fifteen_tourney minutes later and asks, "Do you have a plunger?"',
+looks_like: 'Looks like your friend\'s friend who uses your bathroom, comes out fifteen minutes later and asks, "Do you have a plunger?"',
 photo_url: 'http://i.imgur.com/qH4EntP.jpg')
 
 sixteen_tourney.lookslikes.create!(name: 'Ty Lawson',
@@ -546,7 +546,7 @@ looks_like: 'Looks like a cartoon dinosaur.',
 photo_url: 'http://i.imgur.com/ZvxPFae.jpg')
 
 sixteen.lookslikes.create!(name: "Bret Bielema",
-looks_like: 'Looks like he calls beer "milk"',
+looks_like: 'Looks like he calls beer "milk."',
 photo_url: "http://i.imgur.com/8NSmIBZ.jpg")
 
 sixteen.lookslikes.create!(name: "Colt McCoy",
@@ -558,7 +558,7 @@ looks_like: 'Looks like the physical manifestation of Anger in a kids movie abou
 photo_url: "http://i.imgur.com/lJs0iPy.jpg")
 
 sixteen.lookslikes.create!(name: "Dallas Braden",
-looks_like: 'Looks like the guy who kicks the air and launches his flip flop across the yard after losing a cornhole match',
+looks_like: 'Looks like the guy who kicks the air and launches his flip flop across the yard after losing a cornhole match.',
 photo_url: "http://i.imgur.com/8e4C0lo.png")
 
 sixteen.lookslikes.create!(name: "Ron Rivera",
