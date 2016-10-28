@@ -545,6 +545,70 @@ sixteen_tourney.lookslikes.create!(name: 'Jameis Winston',
 looks_like: 'Looks like a cartoon dinosaur.',
 photo_url: 'http://i.imgur.com/ZvxPFae.jpg')
 
+sixteen.lookslikes.create!(name: "Andrew Luck",
+looks_like: 'Looks like a human to werewolf transformation that encountered a loading error at 45%.',
+photo_url: "http://i.imgur.com/Sc0Pg8G.jpg")
+
+sixteen.lookslikes.create!(name: "Skip Bayless",
+looks_like: 'Looks like a painting of a British commander who lost an important battle in the Revolutionary War.',
+photo_url: "http://i.imgur.com/VSqoZzd.jpg")
+
+sixteen.lookslikes.create!(name: "Jim Leyland",
+looks_like: 'Looks like the grizzled old cowboy who, when asked why your group can\'t press on after nightfall, slowly lights his pipe and says "wolves" as he stares ominously into the crackling flames of the campfire.',
+photo_url: "http://i.imgur.com/c7xyaWX.jpg")
+
+sixteen.lookslikes.create!(name: "Andy Reid",
+looks_like: 'Looks like a guy running down from the brothel in his red long johns because somebody stole his boots.',
+photo_url: "http://i.imgur.com/oXcX0ll.jpg")
+
+sixteen.lookslikes.create!(name: "Jake Arrieta",
+looks_like: 'Looks like the oil rig worker who sits at a bar when people talk about work and says "You don\'t know about real work."',
+photo_url: "http://i.imgur.com/SG9Cxfp.jpg")
+
+sixteen.lookslikes.create!(name: "Sam Bradford",
+looks_like: 'Looks like a guy who just went on vacation and realized he left his garage door open.',
+photo_url: "http://i.imgur.com/7ihsgSz.jpg")
+
+sixteen.lookslikes.create!(name: "Ben McAdoo",
+looks_like: 'Looks like his F-word is "fiddlesticks."',
+photo_url: "http://i.imgur.com/noQaMnT.jpg")
+
+sixteen.lookslikes.create!(name: "Ben McAdoo",
+looks_like: 'Looks like a father who embarrasses his family by annunciating the J in "chicken fajita" when ordering at Taco Bell.',
+photo_url: "http://i.imgur.com/2O93mXL.jpg")
+
+sixteen.lookslikes.create!(name: "Landon Donovan",
+looks_like: 'Looks like the guy at a party who enthusiastically talks to you about the ultimate fribee league he started and then walks away while you repsond.',
+photo_url: "http://i.imgur.com/q91TdW0.jpg")
+
+sixteen.lookslikes.create!(name: "Field Yates",
+looks_like: 'Looks like the villain in every college movie.',
+photo_url: "http://i.imgur.com/PbzRUfl.jpg")
+
+sixteen.lookslikes.create!(name: "Verne Lundquist",
+looks_like: 'Looks like a soap bubble.',
+photo_url: "http://i.imgur.com/U88TXoP.jpg")
+
+sixteen.lookslikes.create!(name: "Carson Wentz",
+looks_like: 'Looks like the kid in sex ed who says "My brother told me you could reuse a condom if you stick it in the microwave."',
+photo_url: "http://i.imgur.com/as9QchE.jpg")
+
+sixteen.lookslikes.create!(name: "Terry Francona",
+looks_like: 'Looks like a boiled peanut.',
+photo_url: "http://i.imgur.com/dpAhL2D.jpg")
+
+sixteen.lookslikes.create!(name: "Ken Rosenthal",
+looks_like: 'Looks like the owner of an antique store that specializes in dolls.',
+photo_url: "http://i.imgur.com/J7KFXxs.png")
+
+sixteen.lookslikes.create!(name: "Jeff Samardzija",
+looks_like: 'Looks like 1992.',
+photo_url: "http://i.imgur.com/QlpZy8p.jpg")
+
+sixteen.lookslikes.create!(name: "Jerry Lawler",
+looks_like: 'Looks like Denny\'s.',
+photo_url: "http://i.imgur.com/mML5WMG.jpg")
+
 sixteen.lookslikes.create!(name: "Dallas Braden",
 looks_like: 'Looks like a guy who runs an erotic pottery workshop with his wife featured in an episode of HBO\'s Real Sex from the mid 1990s.',
 photo_url: "http://i.imgur.com/smkgIWc.jpg")
@@ -622,61 +686,7 @@ looks_like: 'Looks like the guy in a movie who would help you move a log.',
 photo_url: "http://i.imgur.com/UWyef96.jpg?1")
 
 
-# sixteen.lookslikes.create!(name: "Andrew Luck",
-# looks_like: 'Looks like a human to werewolf transformation that encountered a loading error at 45%.',
-# photo_url: "")
 
-# sixteen.lookslikes.create!(name: "Skip Bayless",
-# looks_like: 'Looks like a painting of a British commander who lost an important battle in the Revolutionary War.',
-# photo_url: "")
-
-# sixteen.lookslikes.create!(name: "Jim Leyland",
-# looks_like: 'Looks like the grizzled old cowboy who, when asked why your group can't press on after nightfall, slowly lights his pipe and says "wolves" as he stares ominously into the crackling flames of the campfire.',
-# photo_url: "")
-
-# sixteen.lookslikes.create!(name: "Andy Reid",
-# looks_like: 'Looks like a guy running down from the brothel in his red long johns because somebody stole his boots.',
-# photo_url: "")
-
-# sixteen.lookslikes.create!(name: "Jake Arrieta",
-# looks_like: 'Looks like the oil rig worker who sits at a bar when people talk about work and says "You don't know about real work.".',
-# photo_url: "")
-
-# sixteen.lookslikes.create!(name: "Sam Bradford",
-# looks_like: 'Looks like a guy who just went on vacation and realized he left his garage door open.',
-# photo_url: "")
-
-# sixteen.lookslikes.create!(name: "Ben McAdoo",
-# looks_like: 'Looks like his F-word is "fiddlesticks."',
-# photo_url: "")
-
-# sixteen.lookslikes.create!(name: "Ben McAdoo",
-# looks_like: 'Looks like a father who embarrasses his family by annunciating the J in "chicken fajita" when ordering at Taco Bell.',
-# photo_url: "")
-
-# sixteen.lookslikes.create!(name: "Landon Donovan",
-# looks_like: 'Looks like the guy at a party who enthusiastically talks to you about the ultimate fribee league he started and then walks away while you repsond.',
-# photo_url: "")
-
-# sixteen.lookslikes.create!(name: "Field Yates",
-# looks_like: 'Looks like the villain in every college movie.',
-# photo_url: "")
-
-# sixteen.lookslikes.create!(name: "Verne Lundquist",
-# looks_like: 'Looks like a soap bubble.',
-# photo_url: "")
-
-# sixteen.lookslikes.create!(name: "Carson Wentz",
-# looks_like: 'Looks like the kid in sex ed who says "my brother told me you could reuse a condom if you stick it in the microwave."',
-# photo_url: "")
-
-# sixteen.lookslikes.create!(name: "Terry Francona",
-# looks_like: 'Looks like a boiled peanut.',
-# photo_url: "")
-
-# sixteen.lookslikes.create!(name: "Ken Rosenthal",
-# looks_like: 'Looks like .',
-# photo_url: "")
 
 # sixteen.lookslikes.create!(name: "",
 # looks_like: 'Looks like .',
@@ -685,15 +695,3 @@ photo_url: "http://i.imgur.com/UWyef96.jpg?1")
 # sixteen.lookslikes.create!(name: "",
 # looks_like: 'Looks like .',
 # photo_url: "")
-
-# sixteen.lookslikes.create!(name: "",
-# looks_like: 'Looks like .',
-# photo_url: "")
-
-# sixteen.lookslikes.create!(name: "",
-# looks_like: 'Looks like .',
-# photo_url: "")
-
-# : the owner of an antique store that specializes in dolls
-# Jeff Smarga: 1992
-# Jerry Lawler looks like Denny's.
