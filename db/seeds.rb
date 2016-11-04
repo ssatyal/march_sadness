@@ -545,6 +545,42 @@ sixteen_tourney.lookslikes.create!(name: 'Jameis Winston',
 looks_like: 'Looks like a cartoon dinosaur.',
 photo_url: 'http://i.imgur.com/ZvxPFae.jpg')
 
+sixteen.lookslikes.create!(name: "Pete Rose",
+looks_like: 'Looks like I drew a face on my thumb.',
+photo_url: "http://i.imgur.com/9IWy6iw.jpg")
+
+sixteen.lookslikes.create!(name: "Dallas Braden",
+looks_like: 'Looks like a lawyer on a daytime TV ad reminding me I could be eligible for substantial financial compensation.',
+photo_url: "http://i.imgur.com/atD5mJn.jpg")
+
+sixteen.lookslikes.create!(name: "Butch Jones",
+looks_like: 'Looks like the guy who tries to get off the plane first from the back row but gets stuck in the aisle next to you.',
+photo_url: "http://i.imgur.com/3mcKOqZ.jpg")
+
+sixteen.lookslikes.create!(name: "Joe West",
+looks_like: 'Looks like a baked potato.',
+photo_url: "http://i.imgur.com/gbzarnK.jpg")
+
+sixteen.lookslikes.create!(name: "Sam Bradford",
+looks_like: 'Looks like a frozen FaceTime conversation.',
+photo_url: "http://i.imgur.com/f66crin.jpg")
+
+sixteen.lookslikes.create!(name: "Doris Burke",
+looks_like: 'Looks like the librarian who, upon hearing a hushed conversation, pushes her glasses up her nose with the eraser of her pencil, squints in the direction of the culprits, and then shushes them at a volume twice as loud as the conversation itself.',
+photo_url: "http://i.imgur.com/Z2MTnei.jpg")
+
+sixteen.lookslikes.create!(name: "Andy Reid",
+looks_like: 'Looks like the chef on a cattle drive that rings the supper triangle vigorously when the food is ready and eagerly watches the cowboys eat, awaiting their approval.',
+photo_url: "http://i.imgur.com/LEmFlxT.jpg")
+
+sixteen.lookslikes.create!(name: "Andy Reid",
+looks_like: 'Looks like the actor used in a history channel reenactment of the civil war who enters a tent to give Lincoln an important update.',
+photo_url: "http://i.imgur.com/DKuU3OY.jpg")
+
+sixteen.lookslikes.create!(name: "Andy Reid",
+looks_like: 'Looks like after a nice dinner out with the wife, once in his car, he gets in to leave and with much excitement says "first order of business" then pops the button open on his pants and loudly exhales.',
+photo_url: "http://i.imgur.com/xqwcov5.jpg")
+
 sixteen.lookslikes.create!(name: "Andrew Luck",
 looks_like: 'Looks like a human to werewolf transformation that encountered a loading error at 45%.',
 photo_url: "http://i.imgur.com/Sc0Pg8G.jpg")
@@ -684,8 +720,6 @@ photo_url: "http://i.imgur.com/e8yPxtd.jpg")
 sixteen.lookslikes.create!(name: "Hunter Pence",
 looks_like: 'Looks like the guy in a movie who would help you move a log.',
 photo_url: "http://i.imgur.com/UWyef96.jpg?1")
-
-
 
 
 # sixteen.lookslikes.create!(name: "",
