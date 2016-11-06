@@ -1,10 +1,9 @@
 # March Sadness
 ## What Famous People in Sports Look Like
-This project is based on The Dan Le Batard Show with Stugotz.
+This project is based on The Dan Le Batard Show with Stugotz.  
 Not affiliated, just a fan.
 
 ## Specs / Installation
-Requires Ruby, Rails, PostgreSQL db.
 The app requires Ruby, Rails, and PostgreSQL if you clone the repo to run it locally.
 
 First install gems:
